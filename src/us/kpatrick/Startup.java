@@ -2,10 +2,18 @@ package us.kpatrick;
 
 import java.util.ArrayList;
 
+/**
+ * Startup class of the person creates the person array list
+ * @author kpatr
+ * @version 1.0.0
+ */
 public class Startup {
 
     ArrayList<Person> people = new ArrayList();
 
+    /**
+     * Constructor to handle the setup
+     */
     public Startup () {
         Person p1 = new Person("Kevin","Patrick",21);
         Person p2 = new Person ("Jason");
